@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+CD# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -235,6 +235,8 @@ egrep l{2} newfile
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
+<img width="326" height="84" alt="image" src="https://github.com/user-attachments/assets/b94fd5b9-c9b7-4b74-ac38-94639736d5c3" />
+
 
 cat > file23
 ```
@@ -253,31 +255,37 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="296" height="29" alt="image" src="https://github.com/user-attachments/assets/57ebee3f-821d-4bd7-8b40-c84fb88e7128" />
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+<img width="259" height="29" alt="image" src="https://github.com/user-attachments/assets/c1d79de5-70d0-4fb4-97e3-38fa54e264ad" />
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="324" height="203" alt="image" src="https://github.com/user-attachments/assets/3e750e61-ee75-4fec-89b8-39971b85c2d6" />
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="314" height="204" alt="image" src="https://github.com/user-attachments/assets/36e9a34a-dd9b-4759-916a-9f25ac25554f" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="335" height="208" alt="image" src="https://github.com/user-attachments/assets/f8e8eb8b-d77f-483c-8e14-e32fb158c069" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="345" height="140" alt="image" src="https://github.com/user-attachments/assets/03e4ba44-9d15-4cca-a093-7bcf9b78ecea" />
 
 
 sed -n -e '2,/Joe/p' file23
